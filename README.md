@@ -22,24 +22,6 @@ Designed with both education and innovation in mind, PlasmaTorch is an ideal pla
 - **Energy Tracking:** Real-time monitoring of kinetic, potential, and total mechanical energies.
 - **Object Interaction:** Introduces customizable solid objects with specific surface and potential properties.
 
-## Features
-
-### Core Functionality
-- **Particle-in-Cell (PIC) Simulation:** Models particle interactions and electromagnetic field evolution in plasma.
-- **Customizable Boundaries:** Supports reflecting, absorbing, and custom boundary conditions.
-- **Poisson Solvers:** Includes Jacobi, Gauss-Seidel, and Red-Black Gauss-Seidel solvers for electric potential calculation.
-- **Energy Measurement:** Tracks kinetic, potential, and mechanical energies during simulations.
-- **Dynamic Objects:** Allows adding rectangular objects with defined properties (e.g., potential, magnetic field).
-
-### AI and Neural Network Integration
-- **PyTorch Backend:** Uses PyTorch for GPU-accelerated computations.
-- **AI-Ready:** Designed for integration with neural networks and artificial intelligence algorithms for advanced simulation control and analysis.
-
-### Educational Orientation
-- **Python-Based:** Python's simplicity and widespread use among students make PlasmaTorch a great learning tool.
-- **Extensive Documentation:** Clear, commented code and easy-to-read structure.
-- **Modularity:** Designed to be extended and adapted for various research and educational purposes.
-
 ## Installation
 
 ### Prerequisites
