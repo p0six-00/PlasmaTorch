@@ -1,5 +1,5 @@
 ![PlasmaTorch Logo](plasma.png)
-# PlasmaTorch: A Python-Based Particle-in-Cell (PIC) Simulator
+# PlasmaTorch: A Python-Based Particle-in-Cell Simulator
 
 PlasmaTorch is an advanced Particle-in-Cell (PIC) simulation framework tailored for researchers, educators, and enthusiasts in plasma physics and computational modeling. Built in Python and leveraging the power of PyTorch, PlasmaTorch delivers high-performance simulations with GPU acceleration, while maintaining a modular and user-friendly design. 
 
