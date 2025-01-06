@@ -64,7 +64,6 @@ simulation = PlasmaTorch(
     Nx=100, Ny=100,
     simulation_time=10.0,
     dt=0.01,
-    normalization=1.0,
     boundaries_type="reflecting",
     save_frequency=10,
     seed=42,
