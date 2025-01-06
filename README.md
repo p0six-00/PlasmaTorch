@@ -16,14 +16,14 @@ Designed with both education and innovation in mind, PlasmaTorch is an ideal pla
 - **AI-Ready:** Prepares for integration with deep learning models and reinforcement learning algorithms for advanced control and predictive capabilities.
 - **PyTorch Backend:** Seamless incorporation of AI tools and techniques, opening pathways to cutting-edge research.
 
-### Advanced Physics Modeling
+### Advanced Physics Modeling (v 0.1)
 - **Poisson Solvers:** Multiple solvers (Jacobi, Gauss-Seidel, Red-Black Gauss-Seidel) for versatile electric potential computation.
 - **Dynamic Magnetic Fields:** Define constant or variable magnetic fields for advanced plasma behavior studies.
 - **Energy Tracking:** Real-time monitoring of kinetic, potential, and total mechanical energies.
 - **Object Interaction:** Introduces customizable solid objects with specific surface and potential properties.
 
 ## Examples
-- **Introduction**
+- [**Introduction**](examples/example1.ipynb)
 - **Plasma Frequency** 
 - **Single Particle in a Constant Electric Field**
 - **Single-Particle Gyromotion in a Constant Magnetic Field**
