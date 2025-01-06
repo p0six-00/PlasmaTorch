@@ -16,12 +16,12 @@ from physics import *
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Main simulation class
-class Space:
+class PlasmaTorch:
     """
     Represents the simulation space for particle interactions, electromagnetic fields,
     and other physical phenomena.
     """
-    def __init__(self, simulation_name, Lx, Ly, Nx, Ny, simulation_time, dt, normalization, 
+    def __init__(self, simulation_name, Lx, Ly, Nx, Ny, simulation_time, dt, 
                  boundaries_type="reflecting", save_frequency=1, seed=1234, backend=device, verbose=False):
         """
         Initialize the simulation environment.
@@ -32,7 +32,6 @@ class Space:
         - Nx, Ny: Number of grid points in each direction.
         - simulation_time: Total time of the simulation.
         - dt: Time step size.
-        - normalization: Scaling factor for normalization.
         - boundaries_type: Type of boundary conditions (e.g., "reflecting").
         - save_frequency: Frequency (in steps) of saving simulation data.
         - seed: Random seed for reproducibility.
@@ -49,7 +48,7 @@ class Space:
         self.Ny = Ny
         self.dx, self.dy = Lx / Nx, Ly / Ny  # Grid spacing
 
-        self.normalization = normalization
+        #self.normalization = normalization #! To be implemented
         self.dt = dt
         self.simulation_time = simulation_time
         self.boundaries_type = boundaries_type

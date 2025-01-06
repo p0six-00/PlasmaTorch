@@ -1,14 +1,18 @@
 #TODO: 
-#* gestire collisioni con muri 
-# normalizzare tutte le simulazioni
+#*!fare sphinx
+#*rifare esempi e linkarli nel README
+#* fare un esempio GIF da mettere nel README
+
 
 #! ci sono dei comportamenti anomali nei pressi delle superfici, fare muri differenziati
 #! perchè va così lento con GPU?
 #! fixare place uniform
 
+#* gestire collisioni con muri oggetti
+# normalizzare tutte le simulazioni
+
+
 #* implementare collisioni tra particelle 
-
-
 # calcolo temperatura, calcolo pressione, calcolo correnti
 
 
