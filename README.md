@@ -24,10 +24,10 @@ Designed with both education and innovation in mind, PlasmaTorch is an ideal pla
 
 ## Examples
 - [**Introduction**](examples/example1.ipynb)
-- **Plasma Frequency** 
-- **Single Particle in a Constant Electric Field**
-- **Single-Particle Gyromotion in a Constant Magnetic Field**
-- **Two-Stream Instability**
+- [**Plasma Frequency** ](examples/example2.ipynb)
+- [**Single Particle in a Constant Electric Field**](examples/example3.ipynb)
+- [**Single-Particle Gyromotion in a Constant Magnetic Field**](examples/example4.ipynb)
+- [**Two-Stream Instability**](examples/example5.ipynb)
 
 ## Installation
 
