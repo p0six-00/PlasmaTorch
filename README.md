@@ -22,6 +22,13 @@ Designed with both education and innovation in mind, PlasmaTorch is an ideal pla
 - **Energy Tracking:** Real-time monitoring of kinetic, potential, and total mechanical energies.
 - **Object Interaction:** Introduces customizable solid objects with specific surface and potential properties.
 
+## Examples
+- **Introduction**
+- **Plasma Frequency** 
+- **Single Particle in a Constant Electric Field**
+- **Single-Particle Gyromotion in a Constant Magnetic Field**
+- **Two-Stream Instability**
+
 ## Installation
 
 ### Prerequisites
@@ -57,7 +64,6 @@ simulation = PlasmaTorch(
     Nx=100, Ny=100,
     simulation_time=10.0,
     dt=0.01,
-    normalization=1.0,
     boundaries_type="reflecting",
     save_frequency=10,
     seed=42,
