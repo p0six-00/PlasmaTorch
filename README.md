@@ -43,7 +43,7 @@ Designed with both education and innovation in mind, PlasmaTorch is an ideal pla
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/PlasmaTorch.git
+   git clone https://github.com/p0six-00/PlasmaTorch.git
    cd PlasmaTorch
    ```
 2. Install dependencies:
